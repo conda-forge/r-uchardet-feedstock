@@ -1,11 +1,22 @@
+About r-uchardet-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-uchardet-feedstock/blob/main/LICENSE.txt)
+
 About r-uchardet
-================
+----------------
 
 Home: https://artemklevtsov.gitlab.io/uchardet, https://gitlab.com/artemklevtsov/uchardet
 
 Package license: GPL-2.0-only
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-uchardet-feedstock/blob/main/LICENSE.txt)
+Summary: R bindings of the 'uchardet', encoding detector library from Mozilla (<https://www.freedesktop.org/wiki/Software/uchardet/>). It takes a sequence of bytes in an unknown character encoding and without any additional information, and attempts to get the encoding of the text. All return names of the encodings are iconv-compatible.
+About r-uchardet
+----------------
+
+Home: https://artemklevtsov.gitlab.io/uchardet, https://gitlab.com/artemklevtsov/uchardet
+
+Package license: GPL-2.0-only
 
 Summary: R bindings of the 'uchardet', encoding detector library from Mozilla (<https://www.freedesktop.org/wiki/Software/uchardet/>). It takes a sequence of bytes in an unknown character encoding and without any additional information, and attempts to get the encoding of the text. All return names of the encodings are iconv-compatible.
 
@@ -27,13 +38,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_r_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12939&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-uchardet-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12939&branchName=main">
@@ -41,10 +45,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_r_base4.1</td>
+              <td>linux_64_r_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12939&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-uchardet-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-uchardet-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -52,6 +56,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12939&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-uchardet-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_r_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12939&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-uchardet-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
